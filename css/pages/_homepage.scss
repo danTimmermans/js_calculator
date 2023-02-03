@@ -2,12 +2,14 @@
     background-color: color("grey");
     padding: 20px;
     border-radius: 10px;
-    width: 272px;
+    width: 320px;
 }
 .buttons{
-    width: 232px;
+    width: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    margin: 10px 0 10px 0;
 }
 button{
     background-color: rgb(131, 129, 129);
