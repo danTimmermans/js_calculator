@@ -7,6 +7,9 @@
     width: 232px;
     display: flex;
     flex-wrap: wrap;
+    @include media-breakpoint-down("sm"){
+        width: 200px;
+        }
 }
 button{
     background-color: rgb(131, 129, 129);
@@ -23,13 +26,22 @@ button{
     &:active{
         background-color: rgb(232,232,232);
     }
+    @include media-breakpoint-down("sm"){
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    }
 }
 .screen{
-    width: 224px;
+    width: 100%;
     background-color: rgb(176, 205, 176);
     font-size: 40px;
     text-align: end;
     padding: 4px;
+    // @include media-breakpoint-down("sm"){
+    //     font-size: 30px;
+    //     width: 200px;
+    //     }
 }
 #equal {
     background-color: rgb(218,2,2);
