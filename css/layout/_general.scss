@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(51, 84, 84);
+    font-family: $body-font;
+    font: {
+        size: map-get($font-sizes , "md" );
+    };
+    color: color("dark");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: $title-font;
+}
+
+
+
