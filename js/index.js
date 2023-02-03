@@ -14,10 +14,6 @@ function calculate(button){
         calculation.push(value);
         accumulativeCalculation = calculation.join('');
         screenDisplay.textContent = accumulativeCalculation;
-    }
-
-
-  
-   
+    }   
 }
 buttons.forEach(button => button.addEventListener('click', ()=>calculate(button)))
